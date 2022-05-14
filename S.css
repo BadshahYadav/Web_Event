@@ -1,0 +1,46 @@
+body{
+    background-image: url("S3.jpg");
+    background-size: 100% 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav img{
+     height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+p{
+    font-weight: bold;
+    font-size:32px;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: -140px;
+    font-style: italic;
+    text-shadow: 2px 1px white;
+}
+.box{
+    height: 370px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 2px;
+    border-radius: 30px;
+    box-shadow: -2px -2px black;
+}
+.box :hover{
+    transform: scale(1.02);
+}
+.first{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
